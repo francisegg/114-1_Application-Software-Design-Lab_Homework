@@ -14,6 +14,12 @@
 
 ## 11/20 Kotlin 2 功課習題
 輕鬆學會Android Kotlin 實作開發：精心設計24個Lab讓你快速上手(第三版) 使用Kotlin 程式語言，實作以下三個Lab https://github.com/taipeitechmmslab/MMSLAB-Android-Kotlin <br/> 
-|CHAPTER 04| Activity 4.1 Activity  4.2 實戰演練：點餐系統 <br/>
-|CHAPTER 05| Fragment 5.1 Fragment 5.2 實戰演練：生命週期觀測 <br/>
-|CHAPTER 06| 訊息提示元件 6.1 提示訊息  6.2 實戰演練：訊息提示與互動 <br/> 
+### |CHAPTER 04| Activity 
+4.1 Activity <br/>  
+4.2 實戰演練：點餐系統 <br/>
+### |CHAPTER 05| Fragment 
+5.1 Fragment <br/>
+5.2 實戰演練：生命週期觀測 <br/>
+### |CHAPTER 06| 訊息提示元件 
+6.1 提示訊息 <br/>
+6.2 實戰演練：訊息提示與互動 <br/> 
