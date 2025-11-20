@@ -1,5 +1,6 @@
 package com.example.kotlin_homework2
 
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -19,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         ActivityResultContracts.StartActivityForResult()
     ) { result: ActivityResult ->
         // Step12：判斷回傳結果是否為 RESULT_OK，若是則執行以下程式碼
-        if (result.resultCode == RESULT_OK) {
+        if (result.resultCode == Activity.RESULT_OK) {
             // Step13：取得回傳的 Intent，並從 Intent 中取得飲料名稱、甜度、冰塊的值
             val intent = result.data
             val drink = intent?.getStringExtra("drink")

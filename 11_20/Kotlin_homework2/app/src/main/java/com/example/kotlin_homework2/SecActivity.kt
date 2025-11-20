@@ -4,9 +4,9 @@ import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.EditText
 import android.widget.RadioButton
 import android.widget.RadioGroup
-import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -26,7 +26,7 @@ class SecActivity : AppCompatActivity() {
         }
 
         // Step6：定義元件變數，並通過 findViewById 取得元件
-        val edDrink = findViewById<TextView>(R.id.edDrink)
+        val edDrink = findViewById<EditText>(R.id.edDrink)
         val rgSugar = findViewById<RadioGroup>(R.id.rgSugar)
         val rgIce = findViewById<RadioGroup>(R.id.rgIce)
         val btnSend = findViewById<Button>(R.id.btnSend)
