@@ -1,6 +1,6 @@
-package Sample5_1;
+package Sample5_4.pc;
 
-class Car {
+public class Car {
     private int num;
     private double gas;
 
@@ -18,6 +18,6 @@ class Car {
 
     public void show() {
         System.out.println("車號是" + num);
-        System.out.println("汽油量是" + gas); // 注意：投影片原文這裡寫 num，應該是 gas，但我照抄原文或邏輯修正皆可，此處保留邏輯修正
+        System.out.println("汽油量是" + gas);
     }
 }
