@@ -1,4 +1,0 @@
-<resources>
-    <string name="app_name">Kotlin_homework2</string>
-    <string name="meal_format">飲料：%1$s\n\n甜度：%2$s\n\n冰塊：%3$s</string>
-</resources>
